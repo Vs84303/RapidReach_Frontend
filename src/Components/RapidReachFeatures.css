@@ -1,0 +1,18 @@
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature-image {
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+}

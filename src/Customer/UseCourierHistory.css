@@ -1,0 +1,8 @@
+table.table-hover tbody tr.courier-row {
+    transition: background-color 0.2s ease;
+  }
+  
+  table.table-hover tbody tr.courier-row:hover {
+    background-color: #fff3cd;
+  }
+  

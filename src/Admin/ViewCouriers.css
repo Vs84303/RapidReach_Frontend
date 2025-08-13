@@ -1,0 +1,24 @@
+.view-couriers-container {
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .couriers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .couriers-table th,
+  .couriers-table td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .couriers-table th {
+    background-color: #f3d70b;
+    color: #333;
+    font-weight: bold;
+  }
+  

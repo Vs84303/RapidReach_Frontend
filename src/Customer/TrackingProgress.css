@@ -1,0 +1,58 @@
+.tracking-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.step-container {
+  display: flex;
+  align-items: center;
+}
+
+.step-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: bold;
+}
+
+.step-circle.done {
+  background-color: #4caf50; /* green for completed */
+  color: white;
+}
+
+.step-circle.failed {
+  background-color: #f44336; /* red for failed/pending */
+  color: white;
+}
+
+.step-label {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  width: 100px;
+}
+
+.step-label.failed-label {
+  color: #f44336;
+}
+
+.step-line {
+  width: 50px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.step-line.done {
+  background-color: #4caf50;
+}
+
+.current-label {
+  font-weight: bold;
+}

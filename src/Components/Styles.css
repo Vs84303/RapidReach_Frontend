@@ -1,0 +1,40 @@
+.logo-style {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: transparent;
+  background: linear-gradient(to right, #fbc02d, #fdd835); /* Yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+  /* Orange outline button */
+  .btn-outline-yellow {
+    color: #fbc02d;
+    border: 2px solid #fbc02d;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-yellow:hover {
+    background-color: #fbc02d;
+    color: white;
+    border-color: #fbc02d;
+  }
+  
+
+  .btn-pill {
+    border-radius: 50px;
+    padding: 0.5rem 1.2rem;
+  }
+  
+
+  .navbar .nav-item .active button {
+    background-color: #ffd75f !important;
+    color: white !important;
+    border-color: #ffffff !important;
+  }
+  
